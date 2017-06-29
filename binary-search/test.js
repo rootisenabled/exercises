@@ -1,5 +1,5 @@
 var assert = require('assert');
-var binarySearch = require('./');
+var binarySearch = require('./').binarySearch;
 
 var generateRandomNumberArray = function(arrayLength) {
   var arr = new Array(arrayLength);
